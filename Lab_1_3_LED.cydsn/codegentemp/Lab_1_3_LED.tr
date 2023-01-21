@@ -1,0 +1,644 @@
+##################################################################### 
+                    Table of Contents
+===================================================================== 
+	1::Clock Frequency Summary
+	2::Clock Relationship Summary
+	3::Datasheet Report
+		3.1::Setup to Clock
+		3.2::Clock to Out
+		3.3::Pad to Pad
+	4::Path Details for Clock Frequency Summary
+		4.1::Critical Path Report for Clock
+	5::Path Details for Clock Relationship Summary
+		5.1::Critical Path Report for (Clock:R vs. Clock:R)
+===================================================================== 
+                    End of Table of Contents
+##################################################################### 
+
+##################################################################### 
+                    1::Clock Frequency Summary
+===================================================================== 
+Number of clocks: 9
+Clock: Clock      | Frequency: 55.71 MHz  | Target: 0.12 MHz   | 
+Clock: CyECO      | N/A                   | Target: 24.00 MHz  | 
+Clock: CyHFCLK    | N/A                   | Target: 24.00 MHz  | 
+Clock: CyILO      | N/A                   | Target: 0.03 MHz   | 
+Clock: CyIMO      | N/A                   | Target: 24.00 MHz  | 
+Clock: CyLFCLK    | N/A                   | Target: 0.03 MHz   | 
+Clock: CyRouted1  | N/A                   | Target: 24.00 MHz  | 
+Clock: CySYSCLK   | N/A                   | Target: 0.19 MHz   | 
+Clock: CyWCO      | N/A                   | Target: 0.03 MHz   | 
+
+ =====================================================================
+                    End of Clock Frequency Summary
+ #####################################################################
+
+
+ #####################################################################
+                    2::Clock Relationship Summary
+ =====================================================================
+
+Launch Clock  Capture Clock  Constraint(R-R)  Slack(R-R)  Constraint(R-F)  Slack(R-F)  Constraint(F-F)  Slack(F-F)  Constraint(F-R)  Slack(F-R)  
+------------  -------------  ---------------  ----------  ---------------  ----------  ---------------  ----------  ---------------  ----------  
+Clock         Clock          8.29167e+006     8273716     N/A              N/A         N/A              N/A         N/A              N/A         
+
+ =====================================================================
+                    End of Clock Relationship Summary
+ #####################################################################
+
+
+ #####################################################################
+                    3::Datasheet Report
+
+All values are in Picoseconds
+ =====================================================================
+
+3.1::Setup to Clock                     
+-------------------                     
+
+Port Name  Setup to Clk  Clock Name:Phase  
+---------  ------------  ----------------  
+
+
+-----------------------3.2::Clock to Out
+----------------------------------------
+
+Port Name     Clock to Out  Clock Name:Phase  
+------------  ------------  ----------------  
+R_PIN(0)_PAD  22579         Clock:R           
+
+
+                         3.3::Pad to Pad
+                         ---------------
+
+Port Name (Source)  Port Name (Destination)  Delay  
+------------------  -----------------------  -----  
+
+===================================================================== 
+                    End of Datasheet Report
+##################################################################### 
+##################################################################### 
+                    4::Path Details for Clock Frequency Summary
+===================================================================== 
+4.1::Critical Path Report for Clock
+***********************************
+Clock: Clock
+Frequency: 55.71 MHz | Target: 0.12 MHz
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb
+Path End       : \PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2
+Capture Clock  : \PWM:PWMUDB:sP8:pwmdp:u0\/clock
+Path slack     : 8273716p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                -11520
+----------------------------------------   ------- 
+End-of-path required time (ps)             8280147
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       6430
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           6430
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                             model name     delay     AT    slack  edge  Fanout
+-----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb    datapathcell1   3850   3850  8273716  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2  datapathcell1   2580   6430  8273716  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+
+
+===================================================================== 
+                    End of Path Details for Clock Frequency Summary
+##################################################################### 
+
+
+##################################################################### 
+                    5::Path Details for Clock Relationship Summary
+===================================================================== 
+
+5.1::Critical Path Report for (Clock:R vs. Clock:R)
+***************************************************
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb
+Path End       : \PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2
+Capture Clock  : \PWM:PWMUDB:sP8:pwmdp:u0\/clock
+Path slack     : 8273716p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                -11520
+----------------------------------------   ------- 
+End-of-path required time (ps)             8280147
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       6430
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           6430
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                             model name     delay     AT    slack  edge  Fanout
+-----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb    datapathcell1   3850   3850  8273716  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2  datapathcell1   2580   6430  8273716  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+
+
+===================================================================== 
+                    End of Path Details for Clock Relationship Summary
+##################################################################### 
+
+##################################################################### 
+                    Detailed Report for all timing paths 
+===================================================================== 
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb
+Path End       : \PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2
+Capture Clock  : \PWM:PWMUDB:sP8:pwmdp:u0\/clock
+Path slack     : 8273716p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                -11520
+----------------------------------------   ------- 
+End-of-path required time (ps)             8280147
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       6430
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           6430
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                             model name     delay     AT    slack  edge  Fanout
+-----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb    datapathcell1   3850   3850  8273716  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_2  datapathcell1   2580   6430  8273716  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+
+
+++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:runmode_enable\/q
+Path End       : \PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_1
+Capture Clock  : \PWM:PWMUDB:sP8:pwmdp:u0\/clock
+Path slack     : 8276011p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                -11520
+----------------------------------------   ------- 
+End-of-path required time (ps)             8280147
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       4136
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           4136
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:runmode_enable\/clock_0                       macrocell2                 0      0  RISE       1
+
+Data path
+pin name                             model name     delay     AT    slack  edge  Fanout
+-----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:runmode_enable\/q        macrocell2      1250   1250  8276011  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/cs_addr_1  datapathcell1   2886   4136  8276011  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+
+
+++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb
+Path End       : \PWM:PWMUDB:genblk8:stsreg\/status_2
+Capture Clock  : \PWM:PWMUDB:genblk8:stsreg\/clock
+Path slack     : 8277992p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -1570
+----------------------------------------   ------- 
+End-of-path required time (ps)             8290097
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       12105
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           12105
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                              model name     delay     AT    slack  edge  Fanout
+------------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/z0_comb     datapathcell1   3850   3850  8273716  RISE       1
+\PWM:PWMUDB:status_2\/main_1          macrocell1      2586   6436  8277992  RISE       1
+\PWM:PWMUDB:status_2\/q               macrocell1      3350   9786  8277992  RISE       1
+\PWM:PWMUDB:genblk8:stsreg\/status_2  statusicell1    2318  12105  8277992  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:genblk8:stsreg\/clock                         statusicell1               0      0  RISE       1
+
+
+
+++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb
+Path End       : \PWM:PWMUDB:prevCompare1\/main_0
+Capture Clock  : \PWM:PWMUDB:prevCompare1\/clock_0
+Path slack     : 8280175p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       7982
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           7982
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                            model name     delay     AT    slack  edge  Fanout
+----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb  datapathcell1   5680   5680  8280175  RISE       1
+\PWM:PWMUDB:prevCompare1\/main_0    macrocell3      2302   7982  8280175  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:prevCompare1\/clock_0                         macrocell3                 0      0  RISE       1
+
+
+
+++++ Path 5 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb
+Path End       : \PWM:PWMUDB:status_0\/main_1
+Capture Clock  : \PWM:PWMUDB:status_0\/clock_0
+Path slack     : 8280175p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       7982
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           7982
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                            model name     delay     AT    slack  edge  Fanout
+----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb  datapathcell1   5680   5680  8280175  RISE       1
+\PWM:PWMUDB:status_0\/main_1        macrocell4      2302   7982  8280175  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:status_0\/clock_0                             macrocell4                 0      0  RISE       1
+
+
+
+++++ Path 6 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb
+Path End       : Net_198/main_1
+Capture Clock  : Net_198/clock_0
+Path slack     : 8280175p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       7982
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           7982
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:sP8:pwmdp:u0\/clock                           datapathcell1              0      0  RISE       1
+
+Data path
+pin name                            model name     delay     AT    slack  edge  Fanout
+----------------------------------  -------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:sP8:pwmdp:u0\/cl0_comb  datapathcell1   5680   5680  8280175  RISE       1
+Net_198/main_1                      macrocell5      2302   7982  8280175  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+Net_198/clock_0                                           macrocell5                 0      0  RISE       1
+
+
+
+++++ Path 7 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:genblk1:ctrlreg\/control_7
+Path End       : \PWM:PWMUDB:runmode_enable\/main_0
+Capture Clock  : \PWM:PWMUDB:runmode_enable\/clock_0
+Path slack     : 8283251p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       4906
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           4906
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:genblk1:ctrlreg\/clock                        controlcell1               0      0  RISE       1
+
+Data path
+pin name                                model name    delay     AT    slack  edge  Fanout
+--------------------------------------  ------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:genblk1:ctrlreg\/control_7  controlcell1   2580   2580  8283251  RISE       1
+\PWM:PWMUDB:runmode_enable\/main_0      macrocell2     2326   4906  8283251  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:runmode_enable\/clock_0                       macrocell2                 0      0  RISE       1
+
+
+
+++++ Path 8 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:runmode_enable\/q
+Path End       : Net_198/main_0
+Capture Clock  : Net_198/clock_0
+Path slack     : 8284034p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       4122
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           4122
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:runmode_enable\/clock_0                       macrocell2                 0      0  RISE       1
+
+Data path
+pin name                       model name   delay     AT    slack  edge  Fanout
+-----------------------------  -----------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:runmode_enable\/q  macrocell2    1250   1250  8276011  RISE       1
+Net_198/main_0                 macrocell5    2872   4122  8284034  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+Net_198/clock_0                                           macrocell5                 0      0  RISE       1
+
+
+
+++++ Path 9 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:prevCompare1\/q
+Path End       : \PWM:PWMUDB:status_0\/main_0
+Capture Clock  : \PWM:PWMUDB:status_0\/clock_0
+Path slack     : 8284607p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -3510
+----------------------------------------   ------- 
+End-of-path required time (ps)             8288157
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       3550
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           3550
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:prevCompare1\/clock_0                         macrocell3                 0      0  RISE       1
+
+Data path
+pin name                      model name   delay     AT    slack  edge  Fanout
+----------------------------  -----------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:prevCompare1\/q   macrocell3    1250   1250  8284607  RISE       1
+\PWM:PWMUDB:status_0\/main_0  macrocell4    2300   3550  8284607  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:status_0\/clock_0                             macrocell4                 0      0  RISE       1
+
+
+
+++++ Path 10 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \PWM:PWMUDB:status_0\/q
+Path End       : \PWM:PWMUDB:genblk8:stsreg\/status_0
+Capture Clock  : \PWM:PWMUDB:genblk8:stsreg\/clock
+Path slack     : 8286521p
+
+Capture Clock Arrival Time                       0
++ Clock path delay                               0
++ Cycle adjust (Clock:R#1 vs. Clock:R#2)   8291667
+- Setup time                                 -1570
+----------------------------------------   ------- 
+End-of-path required time (ps)             8290097
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       3576
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           3576
+ 
+Launch Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:status_0\/clock_0                             macrocell4                 0      0  RISE       1
+
+Data path
+pin name                              model name    delay     AT    slack  edge  Fanout
+------------------------------------  ------------  -----  -----  -------  ----  ------
+\PWM:PWMUDB:status_0\/q               macrocell4     1250   1250  8286521  RISE       1
+\PWM:PWMUDB:genblk8:stsreg\/status_0  statusicell1   2326   3576  8286521  RISE       1
+
+Capture Clock Path
+pin name                                                  model name             delay     AT  edge  Fanout
+--------------------------------------------------------  ---------------------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      m0s8clockblockcell         0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                m0s8clockgenblockcell      0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               m0s8clockgenblockcell      0      0  RISE       1
+\PWM:PWMUDB:genblk8:stsreg\/clock                         statusicell1               0      0  RISE       1
+
+
+===================================================================== 
+                    End of Detailed Report for all timing paths 
+##################################################################### 
+
+##################################################################### 
+                    End of Timing Report 
+##################################################################### 
+

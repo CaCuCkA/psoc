@@ -1,0 +1,112 @@
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyDMA.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyFlash.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyLib.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_MOSI.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_MOSI_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SCLK.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SCLK_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SS.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SS_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B1.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B1_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B2.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B2_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B3.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B3_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D1.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D1_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D2.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D2_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D3.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D3_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D4.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D4_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM_IntClock.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM_PVT.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_BOOT.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_PINS.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_PVT.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_rx.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_tx.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/clk.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_armcc.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_compiler.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_gcc.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/core_cm0.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyPm.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cydisabledsheets.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyfitter.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cypins.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cytypes.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/isr_100Hz.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/project.h D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/main.c 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_MOSI.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_MOSI_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SCLK.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SCLK_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SS.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/PIN_SPI_SS_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B1.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B1_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B2.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B2_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B3.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_B3_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D1.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D1_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D2.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D2_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D3.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D3_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D4.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/Pin_D4_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM_IntClock.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/SPIM_PVT.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/clk.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/isr_100Hz.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/Generated_Source/PSoC4/project.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_3_2_UART_Led.cydsn/main.c : 
+

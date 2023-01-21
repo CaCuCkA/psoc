@@ -1,0 +1,9 @@
+# Lab_1_3_LED
+# 2022-12-02 17:35:57Z
+
+# IO_0@[IOP=(6)][IoId=(0)] is reserved: KhzXtalEnabled
+dont_use_io iocell 6 0
+# IO_1@[IOP=(6)][IoId=(1)] is reserved: KhzXtalEnabled
+dont_use_io iocell 6 1
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "R_PIN(0)" iocell 2 6

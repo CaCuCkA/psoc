@@ -1,0 +1,48 @@
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/Clock.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyDMA.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyFlash.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyLib.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/PWM.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/R_PIN.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/R_PIN_aliases.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_armcc.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_compiler.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_gcc.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/core_cm0.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyPm.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cydisabledsheets.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyfitter.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cypins.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cytypes.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/project.h D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/main.c 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/Clock.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/PWM.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/R_PIN.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/R_PIN_aliases.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/Generated_Source/PSoC4/project.h : 
+
+D:/POK_project/PsoC/LABs_BLE/Lab_1_3_LED.cydsn/main.c : 
+

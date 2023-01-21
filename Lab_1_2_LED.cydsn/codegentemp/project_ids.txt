@@ -1,0 +1,12 @@
+D:\POK_project\PsoC\LABs_BLE\Lab_1_1_LED.cydsn\Lab_1_1_LED.cyprj|076982eb-ea92-4c65-ba13-b96b32904680
+D:\Programs\PSocCreator\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d2cdb3fb-e1d9-46fc-97fd-9b62345bec04
+C:\Users\vanil\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|e49c9135-a5a0-442e-93ce-ac60784735a7
+D:\Programs\PSocCreator\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|f4f900de-998a-4bbe-be48-52afaa4b19e3
+D:\Programs\PSocCreator\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4ccf6d3b-7d08-4d2b-b276-49afa5d81f45
+D:\Programs\PSocCreator\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|daa54cb3-4310-44b2-8d20-5d64d5c0f44d
+D:\Programs\PSocCreator\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|241fb535-2a1f-4a31-98d0-7f6157796e5f
+D:\POK_project\PsoC\LABs_BLE\Lab_1_2_LED.cydsn\Lab_1_2_LED.cyprj|52bae898-215c-4412-a945-cc8a81d0280f
+D:\POK_project\PsoC\LABs_BLE\Lab_3_1_UART_Transmitting.cydsn\Lab_3_1_UART_Transmitting.cyprj|7549c97b-160e-43ab-b0b2-1cae5af1e104
+D:\POK_project\PsoC\LABs_BLE\Lab_3_2_UART_Led.cydsn\Lab_3_2_UART_Led.cyprj|d294316c-cf91-42ce-ab2f-6a71e597a887
+D:\POK_project\PsoC\LABs_BLE\Lab_2_7SEG.cydsn\Lab_2_7SEG.cyprj|3d289488-4975-4f3c-9642-a365553875f0
+D:\POK_project\PsoC\LABs_BLE\Lab_1_3_LED.cydsn\Lab_1_3_LED.cyprj|8678642d-e100-4d0c-9d91-b44e660f8c12
